@@ -1,0 +1,7 @@
+{
+  "/api/v1/*": "/$1",
+  "/academico/aproveitamento": "/academico_aproveitamento",
+  "/academico/curso/aluno": "/academico_curso_aluno",
+  "/academico/curso/disciplinas": "/academico_curso_disciplinas",
+  "/academico/curso/disciplinas/:id": "/academico_curso_disciplinas?grd_codigo=:id"
+}

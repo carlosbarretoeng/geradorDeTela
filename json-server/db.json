@@ -1,0 +1,338 @@
+{
+  "academico_aproveitamento": [
+    {
+      "codigo": 18291,
+      "curso": "CIÊNCIA DA COMPUTAÇÃO",
+      "disciplina": "INF-119 FUNDAMENTOS DA MATEMÁTICA :: 1° CIÊNCIA DA COMPUTAÇÃO - 2016-1",
+      "status": "Pendente",
+      "previsao": "06/12/2021",
+      "id": 1
+    }
+  ],
+  "academico_curso_aluno": [
+    {
+      "csn_codigo": "1",
+      "mtr_codigo": "40667",
+      "mtr_matricula": "201800408460433609",
+      "mtr_ativo": "1",
+      "mtr_observacao": "",
+      "mtr_data_inicio": "0000-00-00",
+      "mtr_registro": "2018-02-22 16:25:19",
+      "mtrs_descricao": "PROCESSO DE RENOVAÇÃO",
+      "cur_codigo": "4",
+      "cur_titulo": "CIÊNCIA DA COMPUTAÇÃO",
+      "mtr_cod_GRADE": "260",
+      "curinsci_cod_CURSO_INSCRICAO": null,
+      "curinsci_codigo": null,
+      "curinsc_ata_gerada": null,
+      "fun_nome": "ANA AMELIA DE SOUZA PEREIRA"
+    },
+    {
+      "csn_codigo": "8",
+      "mtr_codigo": "50374",
+      "mtr_matricula": "202176208460433609",
+      "mtr_ativo": "0",
+      "mtr_observacao": "",
+      "mtr_data_inicio": "0000-00-00",
+      "mtr_registro": "2021-08-23 17:46:18",
+      "mtrs_descricao": "MATRICULA PENDENTE",
+      "cur_codigo": "762",
+      "cur_titulo": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO",
+      "mtr_cod_GRADE": "1054",
+      "curinsci_cod_CURSO_INSCRICAO": null,
+      "curinsci_codigo": null,
+      "curinsc_ata_gerada": null,
+      "fun_nome": null
+    }
+  ],
+  "academico_curso_disciplinas": [
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8365,
+      "grdd_periodo": 1,
+      "grdd_descricao": "INF-100 INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO :: 1° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8366,
+      "grdd_periodo": 1,
+      "grdd_descricao": "INF-105 PORTUGUÊS :: 1° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8367,
+      "grdd_periodo": 1,
+      "grdd_descricao": "INF-106 INTRODUÇÃO A LÓGICA :: 1° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8368,
+      "grdd_periodo": 1,
+      "grdd_descricao": "INF-110 ALGORITMOS E TÉCNICAS DE PROGRAMAÇÃO :: 1° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8370,
+      "grdd_periodo": 1,
+      "grdd_descricao": "INF-119 FUNDAMENTOS DA MATEMÁTICA :: 1° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8369,
+      "grdd_periodo": 1,
+      "grdd_descricao": "INF-317 ÉTICA E NOÇOES DE DIREITO :: 1° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8371,
+      "grdd_periodo": 2,
+      "grdd_descricao": "INF-101 MATEMÁTICA DISCRETA :: 2° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8372,
+      "grdd_periodo": 2,
+      "grdd_descricao": "INF-102 INGLÊS :: 2° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8374,
+      "grdd_periodo": 2,
+      "grdd_descricao": "INF-120 CÁLCULO I :: 2° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8373,
+      "grdd_periodo": 2,
+      "grdd_descricao": "INF-160 ALGORITMOS E ESTRUTURAS DE DADOS :: 2° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8376,
+      "grdd_periodo": 2,
+      "grdd_descricao": "INF-318 CIDADANIA E RESPONSABILIDADE AMBIENTAL :: 2° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8375,
+      "grdd_periodo": 2,
+      "grdd_descricao": "INF-430 SISTEMAS DE INFORMAÇÕES :: 2° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8377,
+      "grdd_periodo": 3,
+      "grdd_descricao": "INF-108 LINGUAGENS DE PROGRAMAÇÃO :: 3° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8381,
+      "grdd_periodo": 3,
+      "grdd_descricao": "INF-121 CÁLCULO II :: 3° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8378,
+      "grdd_periodo": 3,
+      "grdd_descricao": "INF-124 ÁLGEBRA LINEAR :: 3° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8379,
+      "grdd_periodo": 3,
+      "grdd_descricao": "INF-140 ORGANIZAÇÃO DE COMPUTADORES :: 3° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8380,
+      "grdd_periodo": 3,
+      "grdd_descricao": "INF-161 ALGORITMOS DE BUSCA E RECUPERAÇÃO DA INFORMAÇÃO :: 3° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 12738,
+      "grdd_periodo": 4,
+      "grdd_descricao": "INF-103 PROBABILIDADE E ESTATÍSTICA :: 4° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8383,
+      "grdd_periodo": 4,
+      "grdd_descricao": "INF-107 ANÁLISE E PROJETO DE ALGORITMOS :: 4° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8384,
+      "grdd_periodo": 4,
+      "grdd_descricao": "INF-123 CÁLCULO NUMÉRICO :: 4° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8387,
+      "grdd_periodo": 4,
+      "grdd_descricao": "INF-131 TEORIA E MODELOS DE GRAFOS :: 4° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8385,
+      "grdd_periodo": 4,
+      "grdd_descricao": "INF-210 BANCO DE DADOS I :: 4° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8386,
+      "grdd_periodo": 4,
+      "grdd_descricao": "INF-245 REDES DE COMUNICAÇÃO DE DADOS I :: 4° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8388,
+      "grdd_periodo": 5,
+      "grdd_descricao": "INF-130 TEORIA DA COMPUTAÇÃO :: 5° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8389,
+      "grdd_periodo": 5,
+      "grdd_descricao": "INF-211 BANCO DE DADOS II :: 5° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8392,
+      "grdd_periodo": 5,
+      "grdd_descricao": "INF-216 SISTEMAS DISTRIBUIDOS :: 5° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8390,
+      "grdd_periodo": 5,
+      "grdd_descricao": "INF-220 ENGENHARIA DE SOFTWARE I :: 5° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8391,
+      "grdd_periodo": 5,
+      "grdd_descricao": "INF-240 TECNOLOGIA DA WEB :: 5° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8397,
+      "grdd_periodo": 6,
+      "grdd_descricao": "INF-125 INTRODUÇÃO À OTIMIZAÇÃO :: 6° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8393,
+      "grdd_periodo": 6,
+      "grdd_descricao": "INF-201 LABORATÓRIO DE PROGRAMAÇÃO I :: 6° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8394,
+      "grdd_periodo": 6,
+      "grdd_descricao": "INF-221 ENGENHARIA DE SOFTWARE II :: 6° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8395,
+      "grdd_periodo": 6,
+      "grdd_descricao": "INF-250 LINGUAGENS FORMAIS E AUTÔMATOS :: 6° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8396,
+      "grdd_periodo": 6,
+      "grdd_descricao": "INF-256 SISTEMAS OPERACIONAIS :: 6° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 14535,
+      "grdd_periodo": 6,
+      "grdd_descricao": "INF-281 COMPUTAÇÃO GRÁFICA :: 6° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8403,
+      "grdd_periodo": 7,
+      "grdd_descricao": "FGC-109 METODOLOGIA CIENTÍFICA :: 7° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 13793,
+      "grdd_periodo": 7,
+      "grdd_descricao": "INF-212 BANCO DE DADOS III :: 7° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8399,
+      "grdd_periodo": 7,
+      "grdd_descricao": "INF-222 GERÊNCIA DE PROJETOS DE SOFTWARE :: 7° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8400,
+      "grdd_periodo": 7,
+      "grdd_descricao": "INF-255 COMPILADORES :: 7° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8401,
+      "grdd_periodo": 7,
+      "grdd_descricao": "INF-270 PROJETO DE MONOGRAFIA :: 7° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8402,
+      "grdd_periodo": 7,
+      "grdd_descricao": "INF-282 PROCESSAMENTO DIGITAL DE IMAGENS :: 7° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8407,
+      "grdd_periodo": 8,
+      "grdd_descricao": "FGC-113 EMPREENDEDORISMO :: 8° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 13794,
+      "grdd_periodo": 8,
+      "grdd_descricao": "INF-202 LABORATÓRIO DE PROGRAMAÇÃO II :: 8° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8408,
+      "grdd_periodo": 8,
+      "grdd_descricao": "INF-246 REDES DE COMUNICAÇÃO DE DADOS II :: 8° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8405,
+      "grdd_periodo": 8,
+      "grdd_descricao": "INF-271 MONOGRAFIA :: 8° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8410,
+      "grdd_periodo": 8,
+      "grdd_descricao": "INF-280 INTELIGÊNCIA ARTIFICIAL :: 8° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8406,
+      "grdd_periodo": 8,
+      "grdd_descricao": "INF-290 TÓPICOS ESPECIAIS EM COMPUTAÇÃO :: 8° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 260,
+      "grdd_codigo": 8411,
+      "grdd_periodo": 8,
+      "grdd_descricao": "INF-490 ESTÁGIO SUPERVISIONADO :: 8° CIÊNCIA DA COMPUTAÇÃO - 2016-1"
+    },
+    {
+      "grd_codigo": 1054,
+      "grdd_codigo": 20638,
+      "grdd_periodo": 1,
+      "grdd_descricao": "INF-290 TÓPICOS ESPECIAIS EM COMPUTAÇÃO :: 1° TÓPICOS ESPECIAIS EM COMPUTAÇÃO - 2021-2 :: [UNIFAGOC] Especial"
+    }
+  ]
+}
