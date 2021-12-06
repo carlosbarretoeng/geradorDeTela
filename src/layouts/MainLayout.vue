@@ -110,6 +110,14 @@
           icon="attach_money"
           label="Financeiro"
         >
+          <q-list dense style="padding-left: 10px">
+            <q-item clickable  v-ripple to="/aluno/financeiro">
+              <q-item-section avatar>
+                <q-icon name="assignment_ind" />
+              </q-item-section>
+              <q-item-section>Faturas e Recibos</q-item-section>
+            </q-item>
+          </q-list>
         </q-expansion-item>
 
         <q-expansion-item
