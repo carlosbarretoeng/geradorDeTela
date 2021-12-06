@@ -28,6 +28,23 @@ const routes = [
           }
         ]
       },
+      {
+        path: '/aluno',
+        component: () => import('src/layouts/PassThrough.vue'),
+        children: [
+          {
+            path: 'financeiro',
+            component: () => import('src/layouts/PassThrough.vue'),
+            children: 
+            [
+              {
+                path: '',
+                component: () => import('src/pages/aluno/financeiro/faturasRecibos/Index.vue') 
+              },
+            ]
+          }
+        ]
+      }
     ]
   },
 
