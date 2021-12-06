@@ -50,10 +50,13 @@ import { defineComponent, ref } from 'vue';
 const columns = [
   { name: 'opcoes', label: 'Opções', field: 'opcoes', align: 'center'},
   { name: 'codigo', label: 'Código', field: 'codigo', align: 'center' },
-  { name: 'curso', label: 'Curso', field: 'curso', align: 'left' },
-  { name: 'disciplina', label: 'Disciplina', field: 'disciplina', align: 'left'},
-  { name: 'status', label: 'Situação', field: 'status', align: 'left'},
-  { name: 'previsao', label: 'Previsão de Conclusão', field: 'previsao', align: 'left'},
+  { name: 'pago', label: 'Pago', field: 'pago', align: 'center' },
+  { name: 'disponivel', label: 'Disponivel', field: 'disponivel', align: 'left' },
+  { name: 'curso', label: 'Curso', field: 'curso', align: 'left'},
+  { name: 'descricao', label: 'Descricao', field: 'descricao', align: 'left'},
+  { name: 'numParcela', label: 'Numero de Parcela', field: 'numParcela', align: 'left'},
+  { name: 'valor', label: 'Valor', field: 'valor', align: 'left'},
+  { name: 'vencimento', label: 'Vencimento', field: 'vencimento', align: 'left'},
 ]
 
 export default defineComponent({
@@ -75,12 +78,12 @@ export default defineComponent({
   methods: {
     update() {
       this.$api
-        .get('academico/aproveitamento')
+        .get('financeiro')
         .then(response => this.rows = response.data)
     },
     remove (props) {
       this.$axios
-        .delete('http://localhost:3000/academico_aproveitamento', {
+        .delete('http://localhost:3000/financeiro', {
         // .delete('academico/aproveitamento', {
           params: {
             codigo: props.row.id

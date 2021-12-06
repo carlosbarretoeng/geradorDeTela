@@ -334,5 +334,17 @@
       "grdd_periodo": 1,
       "grdd_descricao": "INF-290 TÓPICOS ESPECIAIS EM COMPUTAÇÃO :: 1° TÓPICOS ESPECIAIS EM COMPUTAÇÃO - 2021-2 :: [UNIFAGOC] Especial"
     }
+  ],
+  "financeiro": [
+    {
+      "codigo": 825773,
+      "pago": false,
+      "disponivel": false,
+      "curso": "CIÊNCIA DA COMPUTAÇÃO",
+      "descricao": "Parcela 5/5 de MENSALIDADE INF :: 2021-2 :: [UNIFAGOC] [ SIGA ]",
+      "numParcela": "5/5",
+      "valor": "821,05",
+      "vencimento": "06/12/2021"
+    }
   ]
 }
