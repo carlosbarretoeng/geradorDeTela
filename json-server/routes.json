@@ -4,5 +4,6 @@
   "/academico/curso/aluno": "/academico_curso_aluno",
   "/academico/curso/disciplinas": "/academico_curso_disciplinas",
   "/academico/curso/disciplinas/:id": "/academico_curso_disciplinas?grd_codigo=:id",
-  "/financeiro": "/financeiro"
+  "/financeiro": "/financeiro",
+  "/financeiro/:id": "/financeiro?codigo=:id"
 }

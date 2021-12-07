@@ -1,59 +1,66 @@
-
 const routes = [
   {
-    path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    path: "/",
+    component: () => import("layouts/MainLayout.vue"),
     children: [
-      { 
-        path: '', 
-        component: () => import('src/pages/Index.vue') 
-      },
-      { 
-        path: '/aluno', 
-        component: () => import('src/layouts/PassThrough.vue'),
-        children: [
-          { 
-            path: 'aproveitamento', 
-            component: () => import('src/layouts/PassThrough.vue'),
-            children: [
-              {
-                path: '',
-                component: () => import('src/pages/aluno/aproveitamento/Index.vue') 
-              },
-              {
-                path: 'create',
-                component: () => import('src/pages/aluno/aproveitamento/Create.vue') 
-              }
-            ]
-          }
-        ]
+      {
+        path: "",
+        component: () => import("src/pages/Index.vue"),
       },
       {
-        path: '/aluno',
-        component: () => import('src/layouts/PassThrough.vue'),
+        path: "/aluno",
+        component: () => import("src/layouts/PassThrough.vue"),
         children: [
           {
-            path: 'financeiro',
-            component: () => import('src/layouts/PassThrough.vue'),
-            children: 
-            [
+            path: "aproveitamento",
+            component: () => import("src/layouts/PassThrough.vue"),
+            children: [
               {
-                path: '',
-                component: () => import('src/pages/aluno/financeiro/faturasRecibos/Index.vue') 
+                path: "",
+                component: () =>
+                  import("src/pages/aluno/aproveitamento/Index.vue"),
               },
-            ]
-          }
-        ]
-      }
-    ]
+              {
+                path: "create",
+                component: () =>
+                  import("src/pages/aluno/aproveitamento/Create.vue"),
+              },
+            ],
+          },
+        ],
+      },
+      {
+        path: "/aluno",
+        component: () => import("src/layouts/PassThrough.vue"),
+        children: [
+          {
+            path: "financeiro",
+            component: () => import("src/layouts/PassThrough.vue"),
+            children: [
+              {
+                path: "",
+                component: () =>
+                  import("src/pages/aluno/financeiro/faturasRecibos/Index.vue"),
+              },
+              {
+                path: "/form",
+                name: "form",
+                component: () =>
+                  import("src/pages/aluno/financeiro/faturasRecibos/Form.vue"),
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
 
   // Always leave this as last one,
   // but you can also remove it
   {
-    path: '/:catchAll(.*)*',
-    component: () => import('pages/Error404.vue')
-  }
-]
+    path: "/:catchAll(.*)*",
+    component: () => import("pages/Error404.vue"),
+  },
+];
 
-export default routes
+export default routes;

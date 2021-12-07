@@ -342,9 +342,26 @@
       "disponivel": false,
       "curso": "CIÊNCIA DA COMPUTAÇÃO",
       "descricao": "Parcela 5/5 de MENSALIDADE INF :: 2021-2 :: [UNIFAGOC] [ SIGA ]",
+      "servico": "Mensalidade Graduação",
       "numParcela": "5/5",
-      "valor": "821,05",
-      "vencimento": "06/12/2021"
+      "valorPago": "00,00",
+      "vencimento": "06/12/2021",
+      "pagamento": "06/12/2021",
+      "detalhamento": {
+        "valorOriginal": "1.020,87",
+        "descontoPagamentoEmDia": "78.75",
+        "descontoPromocional": "0.00",
+        "abatimento": "121.06",
+        "debitos": "0.00",
+        "facred": "0.00",
+        "fies": "0.00",
+        "prouni": "0.00",
+        "outrosFinanciamentos": "0.00",
+        "descontos": "0.00",
+        "descontosExpiraveis": "0.00",
+        "jurosMulta": "0.00",
+        "valorTotal": "821,05"
+      }
     }
   ]
 }
