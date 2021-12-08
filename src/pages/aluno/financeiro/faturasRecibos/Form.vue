@@ -1,64 +1,67 @@
 <template>
-  <q-page>
-    <q-card>
-      <div class="row q-col-gutter-xs">
-        <div class="col-4">
-          <q-input
-            outlined
-            disable
-            v-model="this.titulo.codigo"
-            label="Codigo"
-          />
+  <q-page class="main">
+    <div class="q-pa-md">
+      <q-card class="q-pt-md q-pb-md q-ml-md q-mr-md q-mb-md">
+        <div class="text-left q-pl-md pagamento"><p>Informações do Título</p></div>
+        <div class="row q-col-gutter-xs q-pl-md q-pr-md">
+          <div class="col-2">
+            <q-input
+              outlined
+              disable
+              v-model="this.titulo.codigo"
+              label="Codigo"
+            />
+          </div>
+          <div class="col-4">
+            <q-input outlined disable v-model="this.titulo.curso" label="Curso" />
+          </div>
+          <div class="col-4">
+            <q-input
+              outlined
+              disable
+              v-model="this.titulo.descricao"
+              label="Descricao"
+            />
+          </div>
+          <div class="col-2">
+            <q-input
+              outlined
+              disable
+              v-model="this.titulo.numParcela"
+              label="Numero de Parcela"
+            />
+          </div>
         </div>
-        <div class="col-4">
-          <q-input outlined disable v-model="this.titulo.curso" label="Curso" />
+        <div class="row q-col-gutter-xs q-pl-md q-pr-md q-pt-md">
+          <div class="col-3">
+            <q-input
+              outlined
+              disable
+              v-model="this.titulo.disponivel"
+              label="Disponivel"
+            />
+          </div>
+          <div class="col-3">
+            <q-input outlined disable v-model="this.titulo.pago" label="Pago" />
+          </div>
+          <div class="col-3">
+            <q-input
+              outlined
+              disable
+              v-model="this.titulo.detalhamento.valorTotal"
+              label="Valor"
+            />
+          </div>
+          <div class="col-3">
+            <q-input
+              outlined
+              disable
+              v-model="this.titulo.vencimento"
+              label="Vencimento"
+            />
+          </div>
         </div>
-        <div class="col-4">
-          <q-input
-            outlined
-            disable
-            v-model="this.titulo.descricao"
-            label="Descricao"
-          />
-        </div>
-      </div>
-      <div class="col-2">
-        <q-input
-          outlined
-          disable
-          v-model="this.titulo.numParcela"
-          label="Numero de Parcela"
-        />
-      </div>
-      <div class="row q-col-gutter-xs">
-        <div class="col-2">
-          <q-input
-            outlined
-            disable
-            v-model="this.titulo.disponivel"
-            label="Disponivel"
-          />
-        </div>
-        <div class="col-2">
-          <q-input outlined disable v-model="this.titulo.pago" label="Pago" />
-        </div>
-        <div class="col-2">
-          <q-input
-            outlined
-            disable
-            v-model="this.titulo.detalhamento.valorTotal"
-            label="Valor"
-          />
-        </div>
-        <div class="col-2">
-          <q-input
-            outlined
-            disable
-            v-model="this.titulo.vencimento"
-            label="Vencimento"
-          />
-        </div>
-      </div>
+      </q-card>
 
       <div class="q-pa-md">
         <q-table
@@ -71,6 +74,18 @@
           hide-bottom
         />
       </div>
+
+      <div class="q-pa-md">
+        <q-card class="q-pt-md q-pb-md">
+          <div class="text-left q-pl-md pagamento"><p>Formas de pagamento disponíveis</p></div>
+          <div class="row justify-center">
+            <q-btn class="btn" color="primary" label="Débito/Crédito" />
+            <q-btn class="q-ml-md q-mr-md btn" color="primary" label="Pix" />
+            <q-btn class="btn" color="primary" label="Boleto" />
+          </div>
+        </q-card>
+
+      </div>
       <!-- <q-input outlined disable v-model="this.titulo.codigo" label="Codigo" /> -->
       <!-- <q-input outlined disable v-model="this.titulo.curso" label="Curso" />
             <q-input outlined disable v-model="this.titulo.descricao" label="Descricao" />
@@ -79,7 +94,7 @@
             <q-input outlined disable v-model="this.titulo.pago" label="Pago" />
             <q-input outlined disable v-model="this.titulo.valor" label="Valor" />
             <q-input outlined disable v-model="this.titulo.vencimento" label="Vencimento" /> -->
-    </q-card>
+    </div>
   </q-page>
 </template>
 
@@ -216,4 +231,22 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+  * {
+    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+
+  .main {
+    background-color: white;
+  }
+
+  .pagamento {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .btn {
+    width: 10rem;
+  }
+
+</style>
